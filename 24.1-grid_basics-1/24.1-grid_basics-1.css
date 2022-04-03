@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    max-width: 900px;
+    margin: auto;
+}
+
+.box{
+    border-radius: 16px;
+    height: 80px;
+}
+
+#red{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#blue{
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: purple;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+#yellow{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
